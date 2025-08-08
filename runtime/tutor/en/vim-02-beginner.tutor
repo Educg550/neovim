@@ -8,7 +8,7 @@
 ~~~ cmd
         :Tutor vim-01-beginner
 ~~~
-  Or just open the [first chapter](@tutor:vim-01-beginner) of the tutor at the link.
+  Or just open the first chapter of the tutor by typing `:Tutor`{vim} and hitting <Enter>.
 
   The approximate time required to complete this chapter is 8-10 minutes,
   depending upon how much time is spent with experimentation.
@@ -39,10 +39,10 @@ b) In this capacity, Vince will have sole cake discretionary powers
 NOTE: Delete also works into registers, i.e. `"sdiw`{normal} will delete
       the word under the cursor into register s.
 
-REFERENCE: [Registers](registers)
-           [Named Registers](quotea)
-           [Motion](text-objects)
-           [CTRL-R](i_CTRL-R)
+REFERENCE: Registers
+           Named Registers
+           Motion
+           CTRL-R
 
 
 # Lesson 2.1.2: THE EXPRESSION REGISTER
@@ -67,7 +67,7 @@ Today's date is:
 NOTE: the same can be achieved with `:pu=`{normal}`system('date')`{vim}
       or, with fewer keystrokes `:r!date`{vim}
 
-REFERENCE: [Expression Register](quote=)
+REFERENCE: Expression Register
 
 
 # Lesson 2.1.3: THE NUMBERED REGISTERS
@@ -104,7 +104,7 @@ NOTE: Whole line deletions (`dd`{normal}) are much longer lived in the
       numbered registers than whole line yanks, or deletions involving
       smaller movements
 
-REFERENCE: [Numbered Registers](quote0)
+REFERENCE: Numbered Registers
 
 
 # Lesson 2.1.4: THE BEAUTY OF MARKS
@@ -156,8 +156,8 @@ NOTE: marks and registers do not share a namespace, therefore register a is
       completely independent of mark a. This is not true of registers and
       macros.
 
-REFERENCE: [Marks](marks)
-           [Mark Motions](mark-motions)  (difference between ' and \`)
+REFERENCE: Marks
+           Mark Motions  (difference between ' and \`)
 
 
 # Lesson 2.1 SUMMARY
